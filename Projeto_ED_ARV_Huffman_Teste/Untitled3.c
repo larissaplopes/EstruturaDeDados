@@ -1,0 +1,12 @@
+	filho1.quantidade = 1;
+	filho1.conteudo = malloc(sizeof(char));
+	filho1.conteudo = 'a';
+	filho1.dir = NULL;
+	filho1.esq = NULL;
+	filho2.quantidade = 2;
+	filho2.conteudo = malloc(sizeof(char));
+	filho2.conteudo = 'b';
+	filho2.dir = NULL;
+	filho2.esq = NULL;
+	CriaRaiz(&filho1, &filho2);
+	printf("%d", filho1.quantidade);

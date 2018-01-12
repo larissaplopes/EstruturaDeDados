@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1425232956 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\mergesort.c
+	<stddef.h>
+	"MERGESORT.h"
+	"ARVORE_HUFFMAN.h"
+
+1425244886 c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\mergesort.h
+	"ARVORE_HUFFMAN.h"
+
+1425169129 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\montaarvore.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1425169263 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\teste.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1425332408 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\arvore_huffman.c
+	<stdio.h>
+	<stdlib.h>
+	"ARVORE_HUFFMAN.h"
+
+1425331110 c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\arvore_huffman.h
+
+1425320769 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\le_arquivo.c
+	<stdio.h>
+	"LE_ARQUIVO.h"
+
+1425319369 c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\le_arquivo.h
+
+1425332696 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LE_ARQUIVO.h"
+	"DECODIFICA.h"
+	"SELECTION_SORT.h"
+	"ARVORE_HUFFMAN.h"
+
+1425318518 c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\selection_sort.h
+	"ARVORE_HUFFMAN.h"
+
+1425317465 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\selection_sort.c
+	"SELECTION_SORT.h"
+
+1425331131 c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\decodifica.h
+	"ARVORE_HUFFMAN.h"
+
+1425331250 source:c:\users\anderson\programação\c\projeto_ed_arv_huffman_teste\decodifica.c
+	<stdio.h>
+	<stdlib.h>
+	"DECODIFICA.h"
+
+1425398249 source:c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\arvore_huffman.c
+	<stdio.h>
+	<stdlib.h>
+	"ARVORE_HUFFMAN.h"
+
+1425397548 c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\arvore_huffman.h
+	<stdio.h>
+
+1425331252 source:c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\decodifica.c
+	<stdio.h>
+	<stdlib.h>
+	"DECODIFICA.h"
+
+1425331132 c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\decodifica.h
+	"ARVORE_HUFFMAN.h"
+
+1425320770 source:c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\le_arquivo.c
+	<stdio.h>
+	"LE_ARQUIVO.h"
+
+1425319370 c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\le_arquivo.h
+
+1425402204 source:c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LE_ARQUIVO.h"
+	"DECODIFICA.h"
+	"SELECTION_SORT.h"
+	"ARVORE_HUFFMAN.h"
+
+1425402297 c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\selection_sort.h
+	"ARVORE_HUFFMAN.h"
+
+1425402297 source:c:\programa\maritan\apresentação\projeto_ed_arv_huffman_teste\selection_sort.c
+	"SELECTION_SORT.h"
+

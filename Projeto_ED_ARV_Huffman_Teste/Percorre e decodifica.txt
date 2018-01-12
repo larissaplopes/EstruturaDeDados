@@ -1,0 +1,49 @@
+ /* PRIMEIRO I DEVE SER IGUAL 0 */
+int Percorre(tNo *t, char *car, char *vetorCod, int *tam, int *i)
+{
+	
+   tNo *aux = t,
+	char *auxrealloc;
+   while(aux->esq || aux->dir){
+		if(Busca(car, t->esq)){
+			if(*i >= *tam){
+				tam += ASCII;
+				auxrealloc = realloc(vetorCod, tam);
+				if(!auxrealloc){
+					printf("PROBLEMA");
+				}
+				vetorCod = auxrealloc;
+			}
+         vetorCod[(*i)++] = 1;
+         Percorre(aux->esq, car, vetorCod, tam, i);
+      }else{
+			if(*i >= *tam){
+				tam += ASCII;
+				auxrealloc = realloc(vetorCod, tam);
+				if(!auxrealloc){
+					printf("PROBLEMA");
+				}
+				vetorCod = auxrealloc;
+			}
+         vetorCod[(*i)++] = 0;
+         Percorre(aux->dir, car, vetorCod, tam, i);
+      }
+   }
+}
+
+void Decodifica(tNo *t, char *vetorCod)
+{
+	  tNo *aux = t; 
+	  int i = 0;
+	  while (aux->left != NULL || aux->right != NULL){      
+	  		           
+	  		 if (vetorCod[i] == '1'){
+	  		 	 i++;
+	  		 	 aux = aux->left;      
+  			 }else{
+				 i++;     
+ 		 		 aux = aux->right;      
+		    }    
+	  }
+	   
+} 

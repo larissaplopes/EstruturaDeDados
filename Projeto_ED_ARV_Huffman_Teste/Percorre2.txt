@@ -1,0 +1,12 @@
+int Percorre(tNo *t, char *car, char *vetorCod)
+{
+	int i = 0;
+   tNo *aux = t;
+   if(aux->esq || aux->dir){
+		if(Busca(car, t->esq)){
+         return 1;
+      }else{
+         return 0;
+      }
+   }
+}
